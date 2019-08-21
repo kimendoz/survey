@@ -60,7 +60,7 @@ class Task2Instructions extends Component {
         <h2>Instructions for Task 2:</h2>
 
         <p>
-          In this task, you will be presented with strings of p's and d's with
+          In this task, you will be presented with <strong>50</strong> strings of p's and d's with
           apostrophes written above and below each letter. For example:
         </p>
 
@@ -86,7 +86,12 @@ class Task2Instructions extends Component {
           Work as quickly and as accurately as you can. Type in your response
           using the keys labeled 4 through 7 on the keyboard.
         </p>
-
+      
+        <p>
+          Remember you will see 50 strings of p's and d's. Counting the apostrophes for each string does not
+          take very long, so while there are 50 strings, the task is relatively quick. 
+        </p>
+      
         <p>If you are ready to begin, click next.</p>
 
         <PageNavigation beforeNavigate={this.saveResults} to="/task/2/quiz" />
